@@ -88,7 +88,7 @@ public class BruteCollinearPoints {
 
     public static void main(String[] args) {
 
-        In in = new In("collinear/rs1423.txt");
+        In in = new In("_data/rs1423.txt");
         int n = in.readInt();
         Point[] points = new Point[n];
         for (int i = 0; i < n; i++) {
@@ -110,7 +110,7 @@ public class BruteCollinearPoints {
             segment.draw();
         }
         StdDraw.show();
-        // StdOut.printf("\nNumber of found 4-point segments ---> %d\n<<<---------END--------->>>\n", collinear.numberOfSegments());
+        StdOut.printf("\nNumber of found 4-point segments ---> %d\n<<<---------END--------->>>\n", collinear.numberOfSegments());
     }
 
 }

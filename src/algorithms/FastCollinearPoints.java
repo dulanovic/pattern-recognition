@@ -208,7 +208,7 @@ public class FastCollinearPoints {
 
     public static void main(String[] args) {
 
-        In in = new In("collinear/vertical100.txt");
+        In in = new In("_data/rs1423.txt");
         int n = in.readInt();
         Point[] points = new Point[n];
         for (int i = 0; i < n; i++) {
